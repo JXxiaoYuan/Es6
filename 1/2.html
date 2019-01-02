@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background: pink;
+            float: left;
+            margin-right: 50px;
+            font-size: 30px;
+            text-align: center;
+            color: #fff;
+            line-height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div>第一个</div>
+    <div>第二个</div>
+    <div>第三个</div>
+</body>
+</html>
+<script>
+    let aDiv = document.getElementsByTagName("div");
+        // for(var i = 0; i <aDiv.length;i++){
+        //     alert(i)
+        //     aDiv[i].onclick=function(){
+        //         alert(i);
+        //     }
+        for(let i = 0; i <aDiv.length;i++){
+            alert(i)
+            aDiv[i].onclick=function(){
+                alert(i);
+            }
+        }
+        // console.log(i);
+</script>
