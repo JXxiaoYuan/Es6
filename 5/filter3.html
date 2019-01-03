@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+</html>
+<script>
+    {
+        let arr = [
+            {pName : "上衣",price : 998},
+            {pName : "裤子",price : 98},
+            {pName : "内衣",price : 908},
+            {pName : "包包",price : 9998},
+            {pName : "帽子",price : 98},
+            {pName : "鞋子",price : 198},
+        ];
+        let result = arr.filter(function(item){
+            if(item.price >998){
+                return true;
+            }else{
+                return false;
+            }
+        });
+
+        let aLi = document.getElementsByTagName("li");
+        for(let i = 0;i<aLi.length;i++){
+            aLi[i].innerHTML = result[i].pName;
+        }
+    }
+
+     {
+        let arr = [
+            {pName : "上衣",price : 998},
+            {pName : "裤子",price : 98},
+            {pName : "内衣",price : 908},
+            {pName : "包包",price : 9998},
+            {pName : "帽子",price : 98},
+            {pName : "鞋子",price : 198},
+        ];
+        let result = arr.filter(function(item){
+            if(item.price >998){
+                return true;
+            }else{
+                return false;
+            }
+        });
+
+        let aLi = document.getElementsByTagName("li");
+        for(let i = 0;i<aLi.length;i++){
+            aLi[i].innerHTML = result[i].pName;
+        }
+    }
+
+     {
+        let arr = [
+            {pName : "上衣",price : 998},
+            {pName : "裤子",price : 98},
+            {pName : "内衣",price : 908},
+            {pName : "包包",price : 9998},
+            {pName : "帽子",price : 98},
+            {pName : "鞋子",price : 198},
+        ];
+        let result = arr.filter(function(item){
+            if(item.price >998){
+                return true;
+            }else{
+                return false;
+            }
+        });
+
+        let aLi = document.getElementsByTagName("li");
+        for(let i = 0;i<aLi.length;i++){
+            aLi[i].innerHTML = result[i].pName;
+        }
+    }
+</script>
